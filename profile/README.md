@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://smalum.ru/apple-touch-icon.png" width="96" height="96" alt="Smalum">
+  <img src="icon.png" width="96" height="96" alt="Smalum">
 </p>
 
 <h1 align="center">Smalum</h1>
@@ -17,7 +17,7 @@
 Это щель между PlantUML / Mermaid («картинка как получилась») и draw.io («удобно мышью, но нет диаграммы как код»).
 
 <p align="center">
-  <a href="https://app.smalum.ru"><img src="https://smalum.ru/og-image.png" alt="Smalum — живой PlantUML и Mermaid" width="640"></a>
+  <a href="https://app.smalum.ru"><img src="og-image.png" alt="Smalum — живой PlantUML и Mermaid" width="640"></a>
 </p>
 
 ## Зачем
