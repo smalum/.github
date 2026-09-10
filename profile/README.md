@@ -30,8 +30,30 @@ PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Ви�
 
 ## Этот GitHub
 
-Здесь — публичные плагины и пакеты (VS Code, Obsidian, `@smalum/*`).  
-Редактор — веб-приложение: **[app.smalum.ru](https://app.smalum.ru)**.
+Публичные плагины. Редактор — веб-приложение: **[app.smalum.ru](https://app.smalum.ru)**.  
+В эти репозитории входит только адаптер хоста. Облако, API и исходники редактора сюда не публикуются.
+
+### VS Code / Cursor
+
+Пока нет в Marketplace. Скачайте `.vsix` с [релизов](https://github.com/smalum/vscode/releases) и установите: Extensions → `…` → **Install from VSIX…**.
+
+```bash
+code --install-extension smalum-vscode-0.1.0.vsix
+cursor --install-extension smalum-vscode-0.1.0.vsix
+```
+
+Репозиторий: [github.com/smalum/vscode](https://github.com/smalum/vscode)
+
+### Obsidian
+
+Пока нет в Community Plugins.
+
+1. Установите [BRAT](https://github.com/TfTHacker/obsidian42-brat).
+2. Add a beta plugin → `https://github.com/smalum/obsidian`
+
+Либо скачайте `main.js`, `manifest.json`, `styles.css` с [релизов](https://github.com/smalum/obsidian/releases) и положите в `.obsidian/plugins/smalum/`.
+
+Репозиторий: [github.com/smalum/obsidian](https://github.com/smalum/obsidian)
 
 ## English
 
