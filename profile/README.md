@@ -10,21 +10,21 @@
   <a href="https://docs.smalum.ru">Документация</a>
 </p>
 
-**Smalum** — гибридный редактор диаграмм: слева исходник, справа холст.
+**Smalum** — редактор диаграмм как код.
 
-Текст задаёт **состав** схемы. Мышь задаёт **вид**. Раскладка **не сгорает**, когда исходник разбирают снова: координаты живут в комментариях `SM:` и уезжают вместе с файлом.
+PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Раскладка живёт в комментариях `SM:` и не сгорает при следующем разборе: координаты уезжают вместе с файлом.
 
-Это щель между PlantUML / Mermaid («картинка как получилась») и draw.io («удобно мышью, но нет диаграммы как код»).
+Развиваем **Web IDE** для диаграмм как код: тот же исходник, что в git и в markdown, открывается, правится и доводится до сдачи.
 
 <p align="center">
-  <a href="https://app.smalum.ru"><img src="og-image.png" alt="Smalum — живой PlantUML и Mermaid" width="640"></a>
+  <a href="https://app.smalum.ru"><img src="og-image.png" alt="Smalum — редактор диаграмм как код" width="640"></a>
 </p>
 
 ## Зачем
 
-Пишете PlantUML, Mermaid, BPMN, DFD или SQL — как обычно. На холсте доводите картинку к ревью, ТЗ или слайду. Следующая правка текста **не откатывает** эту работу.
+Пишете схему текстом — как в репозитории. На холсте готовите картинку к ревью, ТЗ или слайду. Следующая правка исходника не откатывает раскладку.
 
-Гость работает без аккаунта. PNG, SVG и исходник с оверлеем раскладки — бесплатно.
+Гость работает без аккаунта. PNG, SVG и файл с оверлеем `SM:` — бесплатно.
 
 ## Для кого
 
@@ -37,7 +37,7 @@
 
 ## English
 
-Smalum is a hybrid diagram editor: source on the left, canvas on the right. You write PlantUML, Mermaid, BPMN, DFD or SQL; you arrange the picture with the mouse; the next parse does **not** throw that layout away. Coordinates live in `SM:` comments and travel with the file.
+Smalum is a diagrams-as-code editor for PlantUML, Mermaid, BPMN, DFD and SQL. Layout lives in `SM:` comments and survives the next parse. We are building a Web IDE around that source — the same code you keep in git.
 
 [smalum.ru](https://smalum.ru) · [app](https://app.smalum.ru) · [docs](https://docs.smalum.ru)
 
