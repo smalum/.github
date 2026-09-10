@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="icon.png" width="96" height="96" alt="Smalum">
-</p>
-
-<h1 align="center">Smalum</h1>
+<h1 align="center">
+  <img src="logo.svg#gh-light-mode-only" width="40" height="40" alt="" valign="middle" />
+  <img src="logo-white.svg#gh-dark-mode-only" width="40" height="40" alt="" valign="middle" />
+  Smalum
+</h1>
 <p align="center"><strong>Small language. Sharp diagrams.</strong></p>
 <p align="center">
   <a href="https://smalum.ru">Сайт</a> ·
