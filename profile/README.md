@@ -12,7 +12,7 @@
 
 **Smalum** — редактор диаграмм как код.
 
-PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Раскладка живёт в комментариях `SM:` и не сгорает при следующем разборе: координаты уезжают вместе с файлом.
+PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Вид, который вы довели на холсте, записывается обратно в тот же файл как **оверлей**: служебные комментарии вида `' SM:` / `// SM:` / `%% SM:` с координатами блоков и линий. При следующем разборе состав схемы снова берётся из текста, а картинка — из оверлея, поэтому раскладка не сгорает и уезжает вместе с файлом в git.
 
 Развиваем **Web IDE** для диаграмм как код: тот же исходник, что в git и в markdown, открывается, правится и доводится до сдачи.
 
@@ -22,9 +22,7 @@ PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Ра�
 
 ## Зачем
 
-Пишете схему текстом — как в репозитории. На холсте готовите картинку к ревью, ТЗ или слайду. Следующая правка исходника не откатывает раскладку.
-
-Гость работает без аккаунта. PNG, SVG и файл с оверлеем `SM:` — бесплатно.
+Пишете схему текстом — как в репозитории. На холсте готовите картинку к ревью, ТЗ или слайду. Следующая правка исходника не откатывает раскладку: оверлей остаётся в файле.
 
 ## Для кого
 
@@ -37,7 +35,7 @@ PlantUML, Mermaid, BPMN, DFD и SQL остаются исходником. Ра�
 
 ## English
 
-Smalum is a diagrams-as-code editor for PlantUML, Mermaid, BPMN, DFD and SQL. Layout lives in `SM:` comments and survives the next parse. We are building a Web IDE around that source — the same code you keep in git.
+Smalum is a diagrams-as-code editor for PlantUML, Mermaid, BPMN, DFD and SQL. The picture you arrange on the canvas is written back into the file as an **overlay** — `SM:` comments with coordinates next to the source. The next parse keeps the structure from the text and the layout from the overlay, so the diagram travels with git. We are building a Web IDE around that source.
 
 [smalum.ru](https://smalum.ru) · [app](https://app.smalum.ru) · [docs](https://docs.smalum.ru)
 
